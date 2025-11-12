@@ -1,0 +1,40 @@
+{
+    "cSpell.words": [
+      "apexcharts",
+      "Barangay",
+      "barangays",
+      "Bennelli",
+      "brgy",
+      "Bttn",
+      "Bttnwith",
+      "downpayment",
+      "Filt",
+      "Kymco",
+      "latlng",
+      "Motorstar",
+      "navigations",
+      "Navlink",
+      "purok",
+      "quickshift",
+      "quickshifter",
+      "Rhean",
+      "RMCI",
+      "Rusi",
+      "Skygo",
+      "sublabel",
+      "swingarm",
+      "usecases",
+      "xaxis",
+      "yaxis"
+    ],
+
+    "indentRainbow.colors": [
+      "rgba(138, 43, 226, 0.14)",   // Blue Violet (bridge between both themes)
+      "rgba(0, 191, 255, 0.14)",    // Deep Sky Blue (Tokyo Night cyan, Synthwave neon)
+      "rgba(255, 105, 180, 0.14)",  // Hot Pink (Synthwave, but muted for Tokyo Night)
+      "rgba(123, 104, 238, 0.14)",  // Medium Slate Blue (Tokyo Night base tone)
+      "rgba(0, 255, 170, 0.14)",    // Neon Green-Cyan (Synthwave glow, still cool)
+      "rgba(255, 215, 0, 0.14)"     // Gold (Synthwave highlight, low opacity so it works in Tokyo Night)
+    ],
+    "indentRainbow.errorColor": "rgba(255, 69, 0, 0.28)" // OrangeRed for bad indents
+}
