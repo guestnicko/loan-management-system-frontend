@@ -40,7 +40,8 @@ export default function ProductInfo({ staff = false }) {
               <section className="flex flex-col space-y-2">
                 <div className="relative w-full h-[70vh] max-h-[70vh] space-y-4 lg:max-w-3xl mx-auto rounded-xl overflow-hidden">
                   <BasicCarousel
-                    length={images.filter((f) => f.type === "color").length}>
+                    length={images.filter((f) => f.type === "color").length}
+                  >
                     {unitLoading ? (
                       //   <div className="w-full h-10 bg-gray-200 dark:bg-gray-500 animate-pulse rounded-md"></div>
                       <div className="flex justify-center items-center w-full h-full">
@@ -61,6 +62,7 @@ export default function ProductInfo({ staff = false }) {
                   </BasicCarousel>
                 </div>
                 <section className="flex w-full space-x-2 overflow-x-auto rounded-lg">
+                  {console.log(images)}
                   {images
                     .filter((f) => f.type === "angle")
                     .map((img, i) => (
@@ -173,7 +175,8 @@ export default function ProductInfo({ staff = false }) {
                       width="24"
                       height="24"
                       fill="none"
-                      viewBox="0 0 24 24">
+                      viewBox="0 0 24 24"
+                    >
                       <path
                         stroke="currentColor"
                         strokeLinecap="round"
@@ -222,7 +225,8 @@ export default function ProductInfo({ staff = false }) {
                     .map(([key, value]) => (
                       <div
                         key={key}
-                        className="rounded-xl border border-gray-100 dark:border-gray-700 bg-gray-200 dark:bg-gray-900/50 p-4 shadow-sm hover:shadow-md transition">
+                        className="rounded-xl border border-gray-100 dark:border-gray-700 bg-gray-200 dark:bg-gray-900/50 p-4 shadow-sm hover:shadow-md transition"
+                      >
                         <p className="text-sm text-gray-700 dark:text-gray-400">
                           {SPECS[key]}
                         </p>
