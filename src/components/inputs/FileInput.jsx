@@ -16,11 +16,6 @@ export default function FileInput({
 }) {
   const [showModal, setShowModal] = useState(false);
 
-  const cameraInputRef = useRef(null);
-  const fileInputRef = useRef(null);
-
-  const [preview, setPreview] = useState(null);
-  const [fileName, setFileName] = useState(null);
   const fileType =
     type === "img"
       ? "SVG, PNG, or JPG (MAX. 2MB 800x400px)"
