@@ -84,7 +84,6 @@ export default function CustomerLoansTable({
             </div>
           </div>
         </div>
-
         <LogList>
           {appsLoading ? (
             <InvoiceRowSkeleton num={5} />
@@ -115,7 +114,6 @@ export default function CustomerLoansTable({
             />
           )}
         </LogList>
-
         <PageNav
           pagination={pagination}
           changePage={setPage}
