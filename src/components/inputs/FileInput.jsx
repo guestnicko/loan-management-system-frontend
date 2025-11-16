@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import AcceptedDocumentsModal from "../modals/AcceptedDocumentsModal";
+import { useRef } from "react";
+import BttnwithIcon from "../buttons/BttnwithIcon";
+import Plus from "../../assets/icons/Plus";
 
 export default function FileInput({
   label,
